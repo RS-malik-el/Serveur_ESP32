@@ -20,7 +20,7 @@ reconnecter automatiquement.
 **Plugin : extension a installer sur l'IDE arduino pour le transfert des fichiers dans la mémoire flash.
  + https://github.com/me-no-dev/arduino-esp32fs-plugin/releases/  
 
-**Image associées au site web
+**Images associées au site web
 
 ![image_1](page_web.png)
 
