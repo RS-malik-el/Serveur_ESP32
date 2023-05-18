@@ -1,0 +1,74 @@
+/* Style pour la barre d'en-tête */
+.header {
+	background-color: #6391be; /* couleur de fond */
+	color: rgb(3, 3, 3); /* couleur du texte */
+	text-align: center; /* alignement horizontal du texte */
+	padding: 5px 0; /* espace entre le contenu et les bords */
+}
+
+/* Style pour le titre principal */
+h1 {
+	margin: 0; /* suppression des marges */
+}
+
+/* Style pour le sous-titre */
+h2 {
+	margin: 0; /* suppression des marges */
+	font-size: 1.5em; /* taille de police */
+}
+
+/* Style pour le conteneur principal */
+.container {
+	padding: 10px; /* espace entre le contenu et les bords */
+	text-align: center; /* alignement horizontal du texte */
+}
+
+/* Style pour les boutons */
+.button {
+	width: 20%; /* largeur du bouton */
+	height: 20vw; /* hauteur du bouton (en pourcentage de la largeur de la fenêtre) */
+	margin: 5%; /* espace entre les boutons */
+	background-size: contain; /* taille de l'image de fond */
+	background-repeat: no-repeat; /* répétition de l'image de fond */
+	background-position: center center; /* position de l'image de fond */
+	border: none; /* suppression de la bordure */
+}
+
+/* Style pour la zone d'état de la lampe */
+.lamp-status {
+	margin-top: 10px; /* espace entre la zone et le contenu précédent */
+}
+
+/* Style pour le texte de l'état de la lampe */
+#lamp-status {
+	font-weight: bold; /* épaisseur de police */
+}
+
+/* Style pour le pied de page défilant */
+.footer {
+	background-color: #c2b2f0; /* couleur de fond */
+	text-align: center; /* alignement horizontal du texte */
+	position: fixed; /* positionnement fixe */
+	left: 0; /* distance entre le bord gauche et l'élément */
+	bottom: 0; /* distance entre le bas et l'élément */
+	width: 100%; /* largeur de l'élément */
+}
+
+.scrolling-text {
+	display: inline-block; /* affichage en ligne */
+	font-weight: bold; /* épaisseur de police */
+	color: #000000; /* couleur du texte */
+	margin: 0; /* suppression des marges */
+	padding: 5px; /* espace entre le contenu et les bords */
+	animation: scroll-left 25s linear infinite; /* animation de défilement */
+	white-space: nowrap; /* suppression des sauts de ligne */
+}
+
+@keyframes scroll-left {
+	0% {
+		transform: translateX(100%); /* position de départ */
+	}
+	100% {
+		transform: translateX(-100%); /* position d'arrivée */
+	}
+}
